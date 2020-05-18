@@ -3,18 +3,20 @@
 Using this Web application you can add, delete and get total expense.
 
 Quick Start
-# Install Dependencies
++ Install Dependencies
+```
 composer install
+```
 
-# Run Migrations
-php artisan migrate
++ Run Migrations
+```php artisan migrate```
 
-# Add virtual host if using Apache
++ Add virtual host if using Apache
 
-php artisan serve
+```php artisan serve```
 
-# If you get an error about an encryption key
-php artisan key:generate
++ If you get an error about an encryption key
+```php artisan key:generate```
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Author
