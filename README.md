@@ -9,14 +9,20 @@ composer install
 ```
 
 + Run Migrations
-```php artisan migrate```
+```
+php artisan migrate
+```
 
 + Add virtual host if using Apache
 
-```php artisan serve```
+```
+php artisan serve
+```
 
 + If you get an error about an encryption key
-```php artisan key:generate```
+```
+php artisan key:generate
+```
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Author
